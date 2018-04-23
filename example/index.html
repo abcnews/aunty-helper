@@ -1,0 +1,22 @@
+<html>
+
+<head>
+  <title>Example</title>
+  <script type="text/javascript">
+    window.module = {
+      exports: null
+    }
+  </script>
+  <script type="text/javascript" src="../index.js"></script>
+</head>
+
+<body>
+  <p>This is a test</p>
+  <script type="text/javascript">
+    window.__AUNTY_HELPER__(() => {
+      return 'This is an error';
+    })
+  </script>
+</body>
+
+</html>
